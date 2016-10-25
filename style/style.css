@@ -2,7 +2,36 @@ body {
   background-color: #d0d0d0;
 }
 
-#name {
-  text-align: center;
-  font-size: 3vw;
+.custom-restricted-width {
+  display: inline-block;
+  margin-top: 2.8vw;
+  font-size: 1vw;
+  background: #f4b042;
+}
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner-img {
+		position: absolute;
+		z-index: -1;
+    width: 100%;
+}
+
+#inset {
+	padding: 4%;
+	text-align: center;
+	margin: 0%;
+	font-family: "League-Gothic", Courier;
+	font-size: 4vw;
+	text-transform: uppercase;
+	color: #EDEDED;
+	text-shadow: 0px 2px 3px #111; fa-lg
 }
