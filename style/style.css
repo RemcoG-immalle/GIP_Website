@@ -36,6 +36,11 @@ body {
 	text-shadow: 0px 2px 3px #111; fa-lg
 }
 
+img.blur {
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+}
+
 /* Vanaf hier is het responsive menu */
 
 .pure-img-responsive {
@@ -122,7 +127,7 @@ appears on the left side of the page.
     left: 0;
     bottom: 0;
     z-index: 1000; /* so the menu or its navicon stays above all content */
-    background: #191818;
+    background: rgba(183, 79, 0, 0.9);
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
@@ -130,7 +135,7 @@ appears on the left side of the page.
     All anchors inside the menu should be styled like this.
     */
     #menu a {
-        color: #bbb;
+        color: #ccc;
         border: none;
         padding: 0.6em 0 0.6em 0.6em;
     }
@@ -141,7 +146,6 @@ appears on the left side of the page.
      #menu .pure-menu,
      #menu .pure-menu ul {
         border: none;
-        /*background: rgba(255,196,114, 0.3); Nog aanpassen als ik de border eronder transparant heb gemaakt*/
     }
 
     /*
@@ -164,8 +168,9 @@ appears on the left side of the page.
     */
     #menu .pure-menu-selected,
     #menu .pure-menu-heading {
-        background: #1f8dd6;
+        background: rgba(255, 130, 0, 0.5);
     }
+
         /*
         This styles a link within a selected menu item `<li>`.
         */
@@ -179,6 +184,8 @@ appears on the left side of the page.
     #menu .pure-menu-heading {
         font-size: 0.9vw;
         color: #fff;
+        background: rgba(99, 186, 0, 0.5)
+;
         margin: 0;
     }
 
