@@ -49,11 +49,11 @@ Add transition to containers so they can push in and out.
 #layout,
 #menu,
 .menu-link {
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -ms-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
 }
 
 /*
@@ -116,7 +116,7 @@ appears on the left side of the page.
 
 #menu {
     margin-left: -150px; /* "#menu" width */
-    width: 150px;
+    width: 12vw;
     position: fixed;
     top: 0;
     left: 0;
@@ -130,7 +130,7 @@ appears on the left side of the page.
     All anchors inside the menu should be styled like this.
     */
     #menu a {
-        color: #999;
+        color: #bbb;
         border: none;
         padding: 0.6em 0 0.6em 0.6em;
     }
@@ -141,7 +141,7 @@ appears on the left side of the page.
      #menu .pure-menu,
      #menu .pure-menu ul {
         border: none;
-        background: transparent;
+        /*background: rgba(255,196,114, 0.3); Nog aanpassen als ik de border eronder transparant heb gemaakt*/
     }
 
     /*
@@ -177,9 +177,13 @@ appears on the left side of the page.
     This styles the menu heading.
     */
     #menu .pure-menu-heading {
-        font-size: 110%;
+        font-size: 0.9vw;
         color: #fff;
         margin: 0;
+    }
+
+    #menu .pure-menu-item {
+      font-size: 0.9vw;
     }
 
 /* -- Dynamic Button For Responsive Menu -------------------------------------*/
@@ -200,7 +204,7 @@ small screens.
     left: 0; /* "#menu width" */
     background: #000;
     background: rgba(0,0,0,0.7);
-    font-size: 10px; /* change this value to increase/decrease button size */
+    font-size: 1vw; /* change this value to increase/decrease button size */
     z-index: 10;
     width: 2em;
     height: auto;
