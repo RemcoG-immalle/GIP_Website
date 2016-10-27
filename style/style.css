@@ -38,10 +38,6 @@ body {
 
 /* Vanaf hier is het responsive menu */
 
-body {
-    color: #777;
-}
-
 .pure-img-responsive {
     max-width: 100%;
     height: auto;
@@ -53,11 +49,11 @@ Add transition to containers so they can push in and out.
 #layout,
 #menu,
 .menu-link {
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -ms-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 /*
