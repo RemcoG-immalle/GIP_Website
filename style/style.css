@@ -41,6 +41,20 @@ img.blur {
 	filter: blur(5px);
 }
 
+.container {
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+  margin: 4vw;
+}
+
+.flex1 {
+  -webkit-flex: none;
+          flex: none;
+  width: 11vw;
+  margin: 1vw;
+}
+
 /* Vanaf hier is het responsive menu */
 
 .pure-img-responsive {
