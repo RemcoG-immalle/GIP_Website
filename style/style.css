@@ -41,6 +41,16 @@ img.blur {
 	filter: blur(5px);
 }
 
+.text {
+  margin-left: 5vmax;
+  margin-top: 5vmax;
+  font-size: 1vmax;
+}
+
+div.row {
+  margin-left: 2vmax;
+}
+
 /* Flexbox */
 
 @import "compass/css3";
@@ -74,12 +84,6 @@ img.blur {
   font-weight: bold;
   font-size: 5vmax;
   text-align: center;
-}
-
-.text {
-  margin-left: 5vmax;
-  margin-top: 5vmax;
-  font-size: 1vmax;
 }
 
 /* Vanaf hier is het responsive menu */
