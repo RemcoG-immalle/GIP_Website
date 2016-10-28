@@ -4,8 +4,8 @@ body {
 
 .custom-restricted-width {
   display: inline-block;
-  margin-top: 2.8vw;
-  font-size: 1vw;
+  margin-top: 2.8vh;
+  font-size: 1vmax;
   background: #f4b042;
 }
 
@@ -30,7 +30,7 @@ body {
 	text-align: center;
 	margin: 0%;
 	font-family: "League-Gothic", Courier;
-	font-size: 4vw;
+	font-size: 4vmax;
 	text-transform: uppercase;
 	color: #EDEDED;
 	text-shadow: 0px 2px 3px #111; fa-lg
@@ -53,6 +53,12 @@ img.blur {
           flex: none;
   width: 11vw;
   margin: 1vw;
+}
+
+p.content {
+  margin-left: 5vw;
+  margin-top: 10vh;
+  font-size: 1vmax;
 }
 
 /* Vanaf hier is het responsive menu */
@@ -196,7 +202,7 @@ appears on the left side of the page.
     This styles the menu heading.
     */
     #menu .pure-menu-heading {
-        font-size: 0.9vw;
+        font-size: 0.9vmax;
         color: #fff;
         background: rgba(99, 186, 0, 0.5)
 ;
@@ -204,7 +210,7 @@ appears on the left side of the page.
     }
 
     #menu .pure-menu-item {
-      font-size: 0.9vw;
+      font-size: 0.9vmax;
     }
 
 /* -- Dynamic Button For Responsive Menu -------------------------------------*/
@@ -225,7 +231,7 @@ small screens.
     left: 0; /* "#menu width" */
     background: #000;
     background: rgba(0,0,0,0.7);
-    font-size: 1vw; /* change this value to increase/decrease button size */
+    font-size: 1vmax; /* change this value to increase/decrease button size */
     z-index: 10;
     width: 2em;
     height: auto;
