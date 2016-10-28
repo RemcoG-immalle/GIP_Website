@@ -12,5 +12,7 @@ Ook heb ik verschillende libraries gebruikt voor de opmaak van mijn website. Ond
 
 - PURECSS Responsive Menu
 	-	Ik heb gebruik gemaakt van het Responsive Menu van PURECSS. Ik ben begonnen met de Demo heb ik er mijn eigen twist aan gegeven met de Font Awesome library.
+	- [Code van het menu](https://github.com/RemcoG-immalle/GIP_Website/blob/8da590994ec0be8dceb96007cd428534f34d995a/index.html#L26-L46)
 - VW / VH / VMAX
-	- Deze eenheden komen heel veel voor in de code van min website. Deze eenheden zorgen ervoor dat mijn website responsive blijft, zelfs als je de grootte van het scherm veranderd.
+	- Deze eenheden komen heel veel voor in de code van mijn website. Deze eenheden zorgen ervoor dat mijn website responsive blijft, zelfs als je de grootte van het scherm veranderd.
+	- [Voorbeeld van gebruik VW](https://github.com/RemcoG-immalle/GIP_Website/blob/8da590994ec0be8dceb96007cd428534f34d995a/style/style.css#L169)
