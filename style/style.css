@@ -41,23 +41,42 @@ img.blur {
 	filter: blur(5px);
 }
 
-.container {
+/* Flexbox */
+
+@import "compass/css3";
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 0.1%;
+  width: 13vmax;
+  height: 13vmax;
+  margin: 8%;
+
+  line-height: 12vmax;
+  color: white;
+  font-weight: bold;
+  font-size: 5vmax;
   text-align: center;
-  margin: 4vw;
 }
 
-.flex1 {
-  -webkit-flex: none;
-          flex: none;
-  width: 11vw;
-  margin: 1vw;
-}
-
-p.text {
-  margin-left: 5vw;
-  margin-top: 10vh;
+.text {
+  margin-left: 5vmax;
+  margin-top: 5vmax;
   font-size: 1vmax;
 }
 
@@ -229,9 +248,8 @@ small screens.
     display: block; /* show this only on small screens */
     top: 0;
     left: 0; /* "#menu width" */
-    background: #000;
-    background: rgba(0,0,0,0.7);
-    font-size: 1vmax; /* change this value to increase/decrease button size */
+    background: rgba(132,81,0,0.7);
+    font-size: 0.7vmax; /* change this value to increase/decrease button size */
     z-index: 10;
     width: 2em;
     height: auto;
