@@ -57,15 +57,17 @@ img.blur {
   display: flex;
 
   -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
+  align-content: space-between;
+  width: 100%;
 }
 
 .flex-item {
   background: tomato;
   padding: 0.1%;
-  width: 13vmax;
-  height: 13vmax;
-  margin: 8%;
+  width: 18vmax;
+  height: 18vmax;
+  margin: 5%;
 
   line-height: 12vmax;
   color: white;
