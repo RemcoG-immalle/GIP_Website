@@ -15,4 +15,9 @@ Ook heb ik verschillende libraries gebruikt voor de opmaak van mijn website. Ond
 	- [Code van het menu](https://github.com/RemcoG-immalle/GIP_Website/blob/8da590994ec0be8dceb96007cd428534f34d995a/index.html#L26-L46)
 - VW / VH / VMAX
 	- Deze eenheden komen heel veel voor in de code van mijn website. Deze eenheden zorgen ervoor dat mijn website responsive blijft, zelfs als je de grootte van het scherm veranderd.
+    - Viewport units
+        - VW --> 1/100 van de viewport width
+        - VH --> 1/100 van de viewport height
+        - VMIN --> 1/100 van de kleinste zijde
+        - VMAX --> 1/100 van de grootste zijde
 	- [Voorbeeld van gebruik VW](https://github.com/RemcoG-immalle/GIP_Website/blob/8da590994ec0be8dceb96007cd428534f34d995a/style/style.css#L169)
