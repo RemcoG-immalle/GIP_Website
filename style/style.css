@@ -56,6 +56,10 @@ div.row {
   margin-left: 2vmax;
 }
 
+#sendButton {
+  margin-left: 5vmax;
+}
+
 /* Flexbox */
 
 @import "compass/css3";

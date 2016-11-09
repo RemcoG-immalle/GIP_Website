@@ -14,14 +14,14 @@
 <body>
 
   <!-- Banner + Titel -->
-  <div id="banner">
+  <header id="banner">
 		<div id="wrapper">
     	<div id="container">
             <img class="banner-img blur" src="img/Nature.png"/>
 						<h1 id="inset">Remco Goyvaerts</h1>
     	</div>
 		</div>
-  </div>
+  </header>
 
   <!-- Menu -->
   <div id="layout">
@@ -62,18 +62,21 @@
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <input id="password" type="password" class="invalidate">
-              <label for="password">Password</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
               <input id="email" type="email" class="validate">
               <label for="email">Email</label>
             </div>
           </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+              <label for="textarea1">Message</label>
+            </div>
+          </div>
         </form>
       </div>
+      <button class="btn waves-effect waves-light" id="sendButton" type="submit" name="action">Submit
+        <i class="fa fa-paper-plane" aria-hidden="true"></i>
+      </button>
 
       <script src="script/vendor/ui.js"></script>
 </body>
