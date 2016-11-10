@@ -47,7 +47,13 @@ img.blur {
 }
 
 .text {
-  margin-left: 15vw;
+  margin-left: 5vw;
+  margin-top: 10vh;
+  font-size: 1vmax;
+}
+
+.welkom {
+  margin-left: 13vw;
   margin-top: 10vh;
   font-size: 1vmax;
 }
