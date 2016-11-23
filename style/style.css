@@ -7,6 +7,14 @@ body {
   background-color: #ffc896;
 }
 
+header, main, footer {
+  padding-left: 240px; }
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0; }
+ }
+
 .custom-restricted-width {
   display: inline-block;
   margin-top: 2.8vh;
