@@ -7,20 +7,12 @@ body {
   background-color: #ffc896;
 }
 
-header, main, footer {
-  padding-left: 240px; }
-
-@media only screen and (max-width : 992px) {
-  header, main, footer {
-    padding-left: 0; }
- }
-
-.custom-restricted-width {
+/*.custom-restricted-width {
   display: inline-block;
   margin-top: 2.8vh;
   font-size: 1vmax;
   background: #f4b042;
-}
+}*/
 
 .wrapper {
     width: 100%;
@@ -109,7 +101,7 @@ div.row {
   text-align: center;
 }
 
-/* Vanaf hier is het responsive menu */
+/* Vanaf hier is het responsive menu 
 
 .pure-img-responsive {
     max-width: 100%;
@@ -118,7 +110,7 @@ div.row {
 
 /*
 Add transition to containers so they can push in and out.
-*/
+
 #layout,
 #menu,
 .menu-link {
@@ -131,7 +123,7 @@ Add transition to containers so they can push in and out.
 
 /*
 This is the parent `<div>` that contains the menu and the content area.
-*/
+
 #layout {
     position: relative;
     padding-left: 0;
@@ -146,7 +138,7 @@ This is the parent `<div>` that contains the menu and the content area.
     }
 /*
 The content `<div>` is where all your content goes.
-*/
+
 .content {
     margin: 0 auto;
     padding: 0 2em;
@@ -185,23 +177,23 @@ The content `<div>` is where all your content goes.
 /*
 The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
 appears on the left side of the page.
-*/
+
 
 #menu {
-    margin-left: -150px; /* "#menu" width */
+    margin-left: -150px; /* "#menu" width 
     width: 12vw;
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    z-index: 1000; /* so the menu or its navicon stays above all content */
+    z-index: 1000; /* so the menu or its navicon stays above all content 
     background: rgba(183, 79, 0, 0.9);
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
     /*
     All anchors inside the menu should be styled like this.
-    */
+    
     #menu a {
         color: #ccc;
         border: none;
@@ -210,7 +202,7 @@ appears on the left side of the page.
 
     /*
     Remove all background/borders, since we are applying them to #menu.
-    */
+    
      #menu .pure-menu,
      #menu .pure-menu ul {
         border: none;
@@ -218,14 +210,14 @@ appears on the left side of the page.
 
     /*
     Add that light border to separate items into groups.
-    */
+    
     #menu .pure-menu ul,
     #menu .pure-menu .menu-item-divided {
         border-top: 1px solid #333;
     }
         /*
         Change color of the anchor links on hover/focus.
-        */
+        
         #menu .pure-menu li a:hover,
         #menu .pure-menu li a:focus {
             background: #333;
@@ -233,7 +225,7 @@ appears on the left side of the page.
 
     /*
     This styles the selected menu item `<li>`.
-    */
+    
     #menu .pure-menu-selected,
     #menu .pure-menu-heading {
         background: rgba(255, 130, 0, 0.5);
@@ -248,7 +240,7 @@ appears on the left side of the page.
 
     /*
     This styles the menu heading.
-    */
+    
     #menu .pure-menu-heading {
         font-size: 0.9vmax;
         color: #fff;
@@ -271,14 +263,14 @@ how it works:
 /*
 `.menu-link` represents the responsive menu toggle that shows/hides on
 small screens.
-*/
+
 .menu-link {
     position: fixed;
-    display: block; /* show this only on small screens */
+    display: block; /* show this only on small screens 
     top: 0;
-    left: 0; /* "#menu width" */
+    left: 0; /* "#menu width" 
     background: rgba(132,81,0,0.7);
-    font-size: 0.7vmax; /* change this value to increase/decrease button size */
+    font-size: 0.7vmax; /* change this value to increase/decrease button size 
     z-index: 10;
     width: 2em;
     height: auto;
@@ -315,11 +307,11 @@ small screens.
         }
 
 
-/* -- Responsive Styles (Media Queries) ------------------------------------- */
+/* -- Responsive Styles (Media Queries) ------------------------------------- 
 
 /*
 Hides the menu at `48em`, but modify this based on your app's needs.
-*/
+
 @media (min-width: 48em) {
 
     .header,
@@ -328,8 +320,8 @@ Hides the menu at `48em`, but modify this based on your app's needs.
         padding-right: 2em;
     }
 
-    #layout {
-        padding-left: 150px; /* left col width "#menu" */
+#layout {
+        padding-left: 150px; /* left col width "#menu" 
         left: 0;
     }
     #menu {
@@ -353,9 +345,10 @@ Hides the menu at `48em`, but modify this based on your app's needs.
         * Make the window small.
         * Tap the menu to trigger the active state.
         * Make the window large again.
-    */
+    
     #layout.active {
         position: relative;
         left: 150px;
     }
 }
+*/
