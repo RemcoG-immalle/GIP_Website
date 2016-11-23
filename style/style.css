@@ -7,12 +7,12 @@ body {
   background-color: #ffc896;
 }
 
-/*.custom-restricted-width {
+.custom-restricted-width {
   display: inline-block;
   margin-top: 2.8vh;
   font-size: 1vmax;
   background: #f4b042;
-}*/
+}
 
 .wrapper {
     width: 100%;
@@ -100,6 +100,43 @@ div.row {
   font-size: 5vmax;
   text-align: center;
 }
+
+/* Menu */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    color:#000;
+}
+main {
+    flex: 1 0 auto;
+}
+/* Remove footer margin added by materialize */
+footer.page-footer {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+ul.side-nav li {
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+ul.side-nav li:first-child {
+	border-top: 1px solid rgba(0,0,0,0.1);
+}
+ul.side-nav.full, ul.side-nav.fixed {
+
+}
+.site-header {
+	height: 56px;
+	position: fixed;
+	width: 100%;
+	z-index: 99999;
+}
+nav {
+    color:#000;
+}
+
 
 /* Vanaf hier is het responsive menu 
 
@@ -233,7 +270,7 @@ appears on the left side of the page.
 
         /*
         This styles a link within a selected menu item `<li>`.
-        */
+        
         #menu .pure-menu-selected a {
             color: #fff;
         }
@@ -253,12 +290,12 @@ appears on the left side of the page.
       font-size: 0.9vmax;
     }
 
-/* -- Dynamic Button For Responsive Menu -------------------------------------*/
+/* -- Dynamic Button For Responsive Menu -------------------------------------
 
 /*
 The button to open/close the Menu is custom-made and not part of Pure. Here's
 how it works:
-*/
+
 
 /*
 `.menu-link` represents the responsive menu toggle that shows/hides on
@@ -320,7 +357,7 @@ Hides the menu at `48em`, but modify this based on your app's needs.
         padding-right: 2em;
     }
 
-#layout {
+    #layout {
         padding-left: 150px; /* left col width "#menu" 
         left: 0;
     }

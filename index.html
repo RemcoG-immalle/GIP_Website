@@ -6,11 +6,12 @@
   <!-- <link rel="stylesheet" href="https://yui-s.yahooapis.com/pure/0.6.0/pure-min.css"> -->
   <link href="style/vendor/hover.css" rel="stylesheet" media="all">
   <link href="style/vendor/materialize.css" rel="stylesheet" media="all">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">-->
 </head>
 
 <body>
-
+    
   <!-- Banner + Titel -->
   <header id="banner">
 		<div id="wrapper">
@@ -20,7 +21,33 @@
     	</div>
 		</div>
   </header>
+    
+<nav>
+  <div class="nav-wrapper light-blue lighten-1">
+    <ul id="nav-mobile" class="full side-nav">
 
+        <li><a href="sass.html">John Daglas</a>
+          <ul class="collection">
+            <li class="collection-item avatar">
+              <img src="http://globe-views.com/dcim/dreams/dog/dog-05.jpg" alt="" class="circle">
+              <span class="title">Title</span>
+              <p>First Line <br>
+                 Second Line
+              </p>
+            </li>
+          </ul>
+        </li>
+    <li><a href="components.html">Components</a></li>
+    <li><a href="javascript.html">Javascript</a></li>
+    </ul>
+
+    <!-- Include this line below -->
+    <a class="button-collapse" href="#" data-activates="nav-mobile"><i class="mdi-navigation-menu"></i></a>
+    <!-- End -->
+
+  </div>
+</nav>
+    
   <!-- Menu
   <div id="layout">
       <a href="#menu" id="menuLink" class="menu-link">
@@ -45,17 +72,16 @@
   </div> -->
 
     
-  <!-- Menu -->
-    
   <!-- Content -->
   <p class="welkom">Hier komt het welkomswoord (taak nederlands) te staan. Dit zorgt voor een mooie intro op mijn website.</p>
 
   <!-- Scripts -->    
   <script src="script/vendor/ui.js"></script>
   <script src="script/script.js"></script>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!--<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>-->
+  <script src="script/vendor/jquery-3.1.1.min.js"></script>
   <script src="script/vendor/materialize.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>-->
   <script src="https://use.fontawesome.com/0da26851ff.js"></script>
 </body>
 </html>
