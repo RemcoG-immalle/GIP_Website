@@ -18,7 +18,7 @@
   <!-- Banner + Titel -->
   <header id="banner">
 		<div id="wrapper">
-    	<div id="container">
+    	<div id="containerBanner">
             <img class="banner-img" src="img/banner.png"/>
 						<h1 id="inset">Remco Goyvaerts</h1>
     	</div>
@@ -38,37 +38,39 @@
   </nav>
 
   <!-- Content -->
-  <p class="text">Nog niet zeker of ik deze pagina ga gebruiken, maar laat deze er wel tijdelijk instaan.</p>
+  <div class=container>
+    <p class="text">Nog niet zeker of ik deze pagina ga gebruiken, maar laat deze er wel tijdelijk instaan.</p>
 
-  <div class="row">
-    <form class="col s12">
-      <div class="row">
-        <div class="input-field col s6">
-          <input id="first_name" type="text" class="validate">
-          <label for="first_name">First Name</label>
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">First Name</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Last Name</label>
+          </div>
         </div>
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Last Name</label>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <input id="email" type="email" class="validate">
-          <label for="email">Email</label>
+        <div class="row">
+          <div class="input-field col s12">
+            <textarea id="textarea1" class="materialize-textarea"></textarea>
+            <label for="textarea1">Message</label>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <textarea id="textarea1" class="materialize-textarea"></textarea>
-          <label for="textarea1">Message</label>
-        </div>
-      </div>
-    </form>
+      </form>
+    </div>
+    <button class="btn waves-effect waves-light" id="sendButton" type="submit" name="action">Submit
+      <i class="fa fa-paper-plane" aria-hidden="true"></i>
+    </button>
   </div>
-  <button class="btn waves-effect waves-light" id="sendButton" type="submit" name="action">Submit
-    <i class="fa fa-paper-plane" aria-hidden="true"></i>
-  </button>
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
