@@ -6,6 +6,22 @@ var sumbitButton = document.getElementById("sendButton");
 
 sumbitButton.addEventListener("click", submitFunction);
 
+// Initialize collapse button
 $(".button-collapse").sideNav();
-$(".dropdown-button").dropdown();
-  $('.button-collapse').sideNav({menuWidth: 240, activationWidth: 70});
+// Initialize collapsible (uncomment the line below if you use the dropdown variation)
+//$('.collapsible').collapsible();
+
+$('.button-collapse').sideNav({
+  menuWidth: 300, // Default is 240
+  edge: 'right', // Choose the horizontal origin
+  closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+  draggable: true // Choose whether you can drag to open on touch screens
+}
+);
+
+// Show sideNav
+$('.button-collapse').sideNav('show');
+// Hide sideNav
+$('.button-collapse').sideNav('hide');
+// Destroy sideNav
+$('.button-collapse').sideNav('destroy');
