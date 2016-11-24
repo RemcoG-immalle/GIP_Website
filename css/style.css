@@ -4,7 +4,7 @@ src:url(http://:/) format("No-IE-404"),url(fishy.ttf) format("truetype");
 }
 
 body {
-  background-color: #ffc896;
+  background-color: #eaeaea;
 }
 
 .custom-restricted-width {
