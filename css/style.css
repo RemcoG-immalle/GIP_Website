@@ -7,6 +7,16 @@ body {
   background-color: #eaeaea;
 }
 
+main, .banner {
+    padding-left: 300px;
+}
+
+  @media only screen and (max-width : 992px) {
+    main, .banner {
+      padding-left: 0;
+  }
+}
+
 .wrapper {
     width: 100%;
     overflow: hidden;
