@@ -6,10 +6,12 @@ $('.button-collapse').sideNav({
   }
 );
 
-function submitFunction() {
-    alert("Deze button verstuurd nog geen contact formulier. Moest ik deze pagina laten staan, zal ik dit wel in orde brengen.");
-}
+(function(document) {
+  var _bars = [].slice.call(document.querySelectorAll('.bar-inner'));
+  _bars.map(function(bar, index) {
+    setTimeout(function() {
+    	bar.style.width = bar.dataset.percent;
+    }, index * 1000);
 
-var sumbitButton = document.getElementById("sendButton");
-
-sumbitButton.addEventListener("click", submitFunction);
+  });
+})(document)
