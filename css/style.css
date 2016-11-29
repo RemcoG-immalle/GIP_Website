@@ -50,8 +50,7 @@ img.blur {
 }
 
 .text {
-  margin-top: 5vh;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .welkom {
@@ -202,4 +201,14 @@ div.panel {
 div.panel.show {
     opacity: 1;
     max-height: 500px;
+}
+
+code { 
+    color: #fff;
+}
+
+pre {
+    white-space: pre-wrap;
+    background: #444;
+    border-radius: 10px;
 }
