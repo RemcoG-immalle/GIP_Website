@@ -10,6 +10,22 @@ $(document).ready(function(){
       $('.carousel').carousel();
 });
 
+$(document).ready(function(){
+    $('.materialboxed').materialbox();
+});
+
+$(function() {
+	$('a[href*=#]').on('click', function(e) {
+		e.preventDefault();
+		$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+	});
+});
+
+$(document).ready(function(){
+  $('.tooltipped').tooltip({delay: 50});
+});
+
+
 (function(document) {
   var _bars = [].slice.call(document.querySelectorAll('.bar-inner'));
   _bars.map(function(bar, index) {
