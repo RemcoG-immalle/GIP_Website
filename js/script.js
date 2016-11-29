@@ -6,6 +6,10 @@ $('.button-collapse').sideNav({
   }
 );
 
+$(document).ready(function(){
+      $('.carousel').carousel();
+});
+
 (function(document) {
   var _bars = [].slice.call(document.querySelectorAll('.bar-inner'));
   _bars.map(function(bar, index) {

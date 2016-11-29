@@ -7,7 +7,7 @@ body {
   background-color: #eaeaea;
 }
 
-main, .banner {
+/*main, .banner {
     padding-left: 300px;
 }
 
@@ -15,7 +15,7 @@ main, .banner {
     main, .banner {
       padding-left: 0;
   }
-}
+}*/
 
 .wrapper {
     width: 100%;
