@@ -51,6 +51,13 @@ img.blur {
 
 .text {
   font-size: 1.2em;
+  color: #000;
+}
+
+.heading {
+  margin-top: 100px;
+  color: #000000;
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
 }
 
 .welkom {
