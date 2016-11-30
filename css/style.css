@@ -49,14 +49,24 @@ img.blur {
 	filter: blur(5px);
 }
 
+.marginbottom {
+  margin-bottom: 8vh;
+}
+
 .text {
   font-size: 1.2em;
   color: #000;
 }
 
 .heading {
-  margin-top: 100px;
-  color: #000000;
+  margin-top: 80px;
+  color: #fff;
+	text-shadow: 0px 1px 0px #bbb, 0px 2px 0px #aaa, 0px 3px 0px #999, 0px 4px 0px #888, 0px 5px 0px #777, 0px 6px 0px #777, 0px 7px 0px #666, 0px 8px 7px #777;
+	font: 80px 'ChunkFiveRegular';
+}
+
+.heading2 {
+  color: #444;
   text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
 }
 

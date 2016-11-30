@@ -25,7 +25,6 @@ $(document).ready(function(){
   $('.tooltipped').tooltip({delay: 50});
 });
 
-
 (function(document) {
   var _bars = [].slice.call(document.querySelectorAll('.bar-inner'));
   _bars.map(function(bar, index) {
