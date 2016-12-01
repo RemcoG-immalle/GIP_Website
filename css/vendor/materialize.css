@@ -5014,9 +5014,9 @@ button.btn-floating {
 
 .fixed-action-btn {
   position: fixed;
-  right: 23px;
-  bottom: 23px;
-  padding-top: 15px;
+  right: 1.5vw;
+  bottom: 1.5vh;
+  padding-top: 1em;
   margin-bottom: 0;
   z-index: 998;
 }
