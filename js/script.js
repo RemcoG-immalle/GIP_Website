@@ -111,9 +111,14 @@ function shuffle(a) {
 }
 
 function createPieCharts() {
-  createPie('.pieID--micro-skills' );
-  createPie('.pieID--categories' );
-  createPie('.pieID--operations' );
+  createPie('.pieID--html' );
+  createPie('.pieID--csharp' );
+  createPie('.pieID--java' );
+  createPie('.pieID--lua' );
+  createPie('.pieID--w7' );
+  createPie('.pieID--w8' );
+  createPie('.pieID--w10' );
+  createPie('.pieID--xub' );
 }
 
 createPieCharts();
