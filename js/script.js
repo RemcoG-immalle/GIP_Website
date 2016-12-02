@@ -59,7 +59,7 @@ function iterateSlices(id, sliceSize, pieElement, offset, dataCount, sliceCount,
   }
 }
 
-function createPie(id) {
+function createPie(id, kleur, kleur2) {
   var
     listData      = [],
     listTotal     = 0,
@@ -68,7 +68,7 @@ function createPie(id) {
     pieElement    = id + " .pie-chart__pie"
     dataElement   = id + " .pie-chart__legend"
 
-    color         = [
+    /*color         = [
       "cornflowerblue",
       "olivedrab",
       "orange",
@@ -78,9 +78,10 @@ function createPie(id) {
       "turquoise",
       "forestgreen",
       "navy"
-    ];
+    ];*/
+    color = [kleur, kleur2];
 
-  color = shuffle( color );
+  /*color = shuffle( color );*/
 
   $(dataElement+" span").each(function() {
     listData.push(Number($(this).html()));
@@ -111,14 +112,14 @@ function shuffle(a) {
 }
 
 function createPieCharts() {
-  createPie('.pieID--html' );
-  createPie('.pieID--csharp' );
-  createPie('.pieID--java' );
-  createPie('.pieID--lua' );
-  createPie('.pieID--w7' );
-  createPie('.pieID--w8' );
-  createPie('.pieID--w10' );
-  createPie('.pieID--xub' );
+  createPie('.pieID--html', "navy", "cornflowerblue" );
+  createPie('.pieID--csharp', "purple", "crimson" );
+  createPie('.pieID--java', "forestgreen", "olivedrab" );
+  createPie('.pieID--lua', "navy", "MediumOrchid" );
+  createPie('.pieID--w7', "tomato", "purple" );
+  createPie('.pieID--w8', "tomato", "purple" );
+  createPie('.pieID--w10', "tomato", "purple" );
+  createPie('.pieID--xub', "tomato", "purple" );
 }
 
 createPieCharts();
