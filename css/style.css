@@ -3,6 +3,10 @@ font-family:FishyFont;
 src:url(http://:/) format("No-IE-404"),url(fishy.ttf) format("truetype");
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 body {
   background-color: #eaeaea;
 }
