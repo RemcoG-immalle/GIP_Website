@@ -25,6 +25,10 @@ $(document).ready(function(){
   $('.tooltipped').tooltip({delay: 50});
 });
 
+$(document).ready(function(){
+      $('.slider').slider({full_width: true});
+});
+
 // Pie Charts
 
 function sliceSize(dataNum, dataTotal) {
