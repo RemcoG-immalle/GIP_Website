@@ -3,8 +3,8 @@ font-family:FishyFont;
 src:url(http://:/) format("No-IE-404"),url(fishy.ttf) format("truetype");
 }
 
-::-webkit-scrollbar { 
-    display: none; 
+::-webkit-scrollbar {
+    display: none;
 }
 
 body {
@@ -53,10 +53,14 @@ img.blur {
 }
 
 .heading {
-  margin-top: 80px;
-  color: #fff;
-	text-shadow: 0px 1px 0px #bbb, 0px 2px 0px #aaa, 0px 3px 0px #999, 0px 4px 0px #888, 0px 5px 0px #777, 0px 6px 0px #777, 0px 7px 0px #666, 0px 8px 7px #777;
-	font: 80px 'ChunkFiveRegular';
+  color: #111;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 8em;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+  padding-top: 0.5em;
 }
 
 .heading2 {
@@ -78,7 +82,7 @@ div.row {
 }
 
 .itvideo {
-  
+  margin-top: 10vh;
 }
 
 /* Flexbox */
