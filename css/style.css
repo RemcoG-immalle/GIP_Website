@@ -168,6 +168,11 @@ div.row {
   text-align: center;
 }
 
+.tasks {
+  font-size: 0.4em;
+  color: #eddeb1;
+}
+
 code {
     color: #fff;
 }
