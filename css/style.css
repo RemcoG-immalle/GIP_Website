@@ -43,10 +43,6 @@ img.blur {
 	filter: blur(5px);
 }
 
-.marginbottom {
-  margin-bottom: 70px;
-}
-
 .text {
   font-size: 1.2em;
   color: #000;
