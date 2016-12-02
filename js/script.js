@@ -112,14 +112,14 @@ function shuffle(a) {
 }
 
 function createPieCharts() {
-  createPie('.pieID--html', "navy", "cornflowerblue" );
-  createPie('.pieID--csharp', "purple", "crimson" );
-  createPie('.pieID--java', "forestgreen", "olivedrab" );
-  createPie('.pieID--lua', "navy", "MediumOrchid" );
-  createPie('.pieID--w7', "tomato", "purple" );
-  createPie('.pieID--w8', "tomato", "purple" );
-  createPie('.pieID--w10', "tomato", "purple" );
-  createPie('.pieID--xub', "tomato", "purple" );
+  createPie('.pieID--lua', "#D8412F", "#FE7A47" );
+  createPie('.pieID--csharp', "#003B46", "#66A5AD" );
+  createPie('.pieID--java', "#598234", "#AEBD38" );
+  createPie('.pieID--html', "#DE7A22", "#F4CC70" );
+  createPie('.pieID--w7', "#662E1C", "#AF4425" );
+  createPie('.pieID--w8', "#A10115", "#D72C16" );
+  createPie('.pieID--xub', "#2F496E", "#2988BC" );
+  createPie('.pieID--w10', "#EE693F", "#F69454" );
 }
 
 createPieCharts();
