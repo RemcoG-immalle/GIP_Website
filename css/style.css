@@ -110,6 +110,12 @@ div.row {
   margin-bottom: 4em;
 }
 
+.evaluation {
+  margin-left: 25%;
+  margin-top: 2vh;
+  width: 50%;
+}
+
 /* Flexbox */
 
 .flexbox-padding {
