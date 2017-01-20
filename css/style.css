@@ -43,6 +43,11 @@ img.blur {
 	filter: blur(5px);
 }
 
+#projects {
+  color: white;
+  text-decoration: underline;
+}
+
 .text {
   font-size: 1.2em;
   color: #000;
