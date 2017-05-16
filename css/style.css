@@ -63,7 +63,7 @@ img.blur {
   font-size: 6em;
   letter-spacing: -1px;
   line-height: 1;
-  margin-bottom: 0.3em;
+  margin-bottom: 0.7em;
 }
 
 .heading {
@@ -86,6 +86,10 @@ img.blur {
   line-height: 1;
   text-align: center;
   margin-bottom: 1em;
+}
+
+.slider {
+  margin-top: 5em;
 }
 
 .welkom {
